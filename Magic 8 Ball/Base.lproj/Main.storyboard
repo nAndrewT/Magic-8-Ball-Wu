@@ -36,11 +36,18 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Ask Away">
                                     <fontDescription key="titleFontDescription" name="SnellRoundhand-Bold" family="Snell Roundhand" pointSize="32"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="askButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="G6e-cc-UdW"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.91642750850340138" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="askButtonPressed" destination="oqa-nY-A46" id="hlC-8p-vUr"/>
+                        <outlet property="ballImage" destination="auE-Jd-ccb" id="C48-4u-0pN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
